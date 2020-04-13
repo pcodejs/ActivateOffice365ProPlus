@@ -11,6 +11,7 @@ Steps to remove your Office license
 **Step 2:** Copy/run this command to determine what is the license key you want to remove.
 
 `cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /dstatus`
+
 If you see an error, try this command.
 
 `cscript "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" /dstatus`
